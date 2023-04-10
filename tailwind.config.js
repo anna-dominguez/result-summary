@@ -28,6 +28,9 @@ module.exports = {
       fontFamily: {
         sans: 'Hanken Grotesk',
       },
+      boxShadow: {
+        card: '0px 30px 60px rgba(61, 108, 236, 0.15)',
+      },
     },
   },
   plugins: [],
