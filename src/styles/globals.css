@@ -4,9 +4,9 @@
 
 @layer components {
   .bg-gradient1 {
-    @apply bg-gradient-to-b from-[#7755FF] via-[#6943FF] to-[#2F2CE9];
+    @apply bg-gradient-to-b from-[#7755FF] from-0% via-[#6943FF] via-[0.01%] to-[#2F2CE9] to-100%;
   }
   .bg-gradient2 {
-    @apply bg-gradient-to-b from-[#4D21C9] via-[#2521C9]/0 to-[#2521C9]/0;
+    @apply bg-gradient-to-b from-[#4D21C9] from-0% via-[#2521C9]/0 via-100% to-[#2521C9]/0 to-100%;
   }
 }
