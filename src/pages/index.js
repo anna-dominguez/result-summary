@@ -5,7 +5,7 @@ const Home = () => (
   <div
     className="flex flex-col lg:flex-row items-center lg:mx-auto lg:my-auto
               max-w-[736px] h-fit justify-center lg:rounded-[32px] bg-white
-              shadow-2xl shadow-darkNavy/10"
+              shadow-2xl shadow-blue/20"
   >
     <Header />
     <Main />
